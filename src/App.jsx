@@ -44,6 +44,7 @@ function App() {
             <button onClick={sayYes} id="yesBtn">Yes</button>
             <button
               onMouseEnter={moveButton}
+              onTouchStart={moveButton}
               id="noBtn"
               style={{
                 position: randomX === 0 ? "initial" : "absolute",
