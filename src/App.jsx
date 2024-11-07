@@ -10,8 +10,8 @@ function App() {
   // Function to display a message when "Yes" is clicked
   const sayYes = () => {
     setShowResponse(true);
-    // setResponseText("I knew you'd say Yes! 💖");
-    setResponseText("I knew it nigga! 😧");
+    setResponseText("Yay I knew you'd say Yes! 💖");
+    // setResponseText("I knew it nigga! 😧");
   }
 
   // Function to move the "No" button to a random position
@@ -39,7 +39,7 @@ function App() {
         </>
       ) : (
         <>
-          <h1>Are you gay?</h1>
+          <h1>Do you love me?</h1>
           <div className="buttons">
             <button onClick={sayYes} id="yesBtn">Yes</button>
             <button
